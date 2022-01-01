@@ -1,0 +1,146 @@
+@charset "UTF-8";
+:root{
+    --maine_fone: Oswald, sans-serif;
+    --second_fone: Pacifico, cursive;
+    --HP_fone: Comforter Brush, cursive;
+    --base_color: #1a335d;/*033f75*/
+    --first_base: #ce9c43;/*930406*/
+    --second_base: #a85624;/*a49901*/
+    --Accent: #afcff5;
+    --Accent_shadow: #868aa5;
+}
+body{
+    background-color: var(--base_color);
+    font-family: var(--maine_fone);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/*Шапка*/
+.header {
+    display: flex;
+    border-bottom: 1px solid var(--second_base);
+}
+.logo {
+    margin: 10px 30px 10px 0px;
+    color: #000;
+}
+.logo_ico{
+    width: 150px;
+    height: 200px;
+    fill: currentColor;
+}
+.container{
+    background-color: gray;
+    width: 1140px;
+    padding: 0 10px;
+    margin: 0 auto;
+    box-shadow: 3px 0px 6px 0px var(--Accent_shadow);
+-webkit-box-shadow: 3px 0px 6px 0px var(--Accent_shadow);
+-moz-box-shadow: 3px 3px 6px 4px var(--Accent_shadow);
+}
+.navigation {
+    margin-right: 30px;
+    font-size: 22px;
+}
+.link_list{
+    /*display: flex;
+    justify-content: space-around;*/
+
+    list-style: none;
+
+}
+.link_list-item{
+    margin-top: 10px;
+    
+}
+.link {
+    border-radius: 10px;
+    color: var(--first_base);
+}
+.accent:hover,
+.accent:focus{
+    color: var(--Accent);
+    box-shadow: 3px 3px 6px 4px var(--Accent_shadow);
+-webkit-box-shadow: 3px 3px 6px 4px var(--Accent_shadow);
+-moz-box-shadow: 3px 3px 6px 4px var(--Accent_shadow);
+}
+.contacts {
+    
+}
+.social_net {
+    margin-right: 10px;
+}
+.instagram {
+}
+.massegers {
+    margin-right: 15px;
+}
+.viber {
+}
+.telegram {
+}
+.slack {
+}
+.head_screen{
+    margin-left: auto;
+}
+
+
+.main_content {
+}
+.hero {
+    height: 600px;
+    background-image: url(../imag/PNG/3d_screen.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    padding:100px 120px 100px;
+ 
+}
+.container {
+}
+/*почитать как поставить текст по центру строки*/
+.title {
+    margin: 0 auto;
+    font-size: 56px;
+    width: 400px;
+    
+}
+.description {
+    width: 800px;
+    font-size: 32px;
+    margin: 0 auto;
+}
+.list_category {
+    list-style: none;
+    padding-left: 0;
+    margin: 30px 0 0 0 ;
+    text-align: center;
+}
+.category {
+    width: 150px;
+    height: 200px;
+    margin-right: 10px;
+}
+.category_thumb{
+    height: 150px;
+    padding: 0 24px;
+    margin-bottom: 15px;
+}
+.category_imeg{
+    
+}
+.category_title{
+margin-top: 30px;
+}
