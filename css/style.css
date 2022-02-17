@@ -100,12 +100,12 @@ a{
 .main_content {
 }
 .hero {
-    height: 600px;
+    height: 800px;
     background-image: url(../imag/PNG/3d_screen.png);
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 0;
     background-size: contain;
-    padding:100px 120px 100px;
+    padding:100px 100px 0 100px;
  
 }
 .container {
@@ -123,23 +123,25 @@ a{
     margin: 0 auto;
 }
 .list_category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     list-style: none;
     padding-left: 0;
     margin: 30px 0 0 0 ;
     text-align: center;
+
 }
 .category {
-    width: 150px;
-    height: 200px;
-    margin-right: 10px;
+
 }
 .category_thumb{
-    height: 150px;
+    /*height: 150px;*/
     padding: 0 24px;
     margin-bottom: 15px;
 }
 .category_imeg{
-    
+    border-radius: 10px;
 }
 .category_title{
 margin-top: 30px;
