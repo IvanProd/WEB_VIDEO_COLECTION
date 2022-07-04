@@ -127,8 +127,10 @@ height: 40px;
 }
 .title {
     text-align: center;
+    color: var(--base_color);
 }
 .description {
+    color: var(--base_color);
 }
 .list_category {
     padding: 0;
@@ -162,4 +164,5 @@ height: 40px;
 
 }
 .category_title {
+    color: var(--base_color);
 }
