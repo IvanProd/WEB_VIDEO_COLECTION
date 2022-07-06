@@ -106,6 +106,7 @@ a{
     /*outline: solid green;*/
     width: auto;
     height: 30px;
+    color: var(--second_base);
 }
 .contacts {
     display: flex;
@@ -165,4 +166,30 @@ height: 40px;
 }
 .category_title {
     color: var(--base_color);
+}
+.link_footer{
+    color: var(--base_color);
+}
+
+/*true story*/
+.container {
+}
+.film_list {
+    padding: 0;
+}
+.film_item {
+    margin-top: 10px;
+    padding-bottom: 5px;
+    list-style: none;
+    border-bottom: 1px solid var(--second_base);
+    text-align: center;
+}
+.film_item-link {
+}
+.film_item-Thumb {
+}
+.film_item-title {
+}
+.poster{
+    border-radius: 10px;
 }
