@@ -172,8 +172,7 @@ height: 40px;
 }
 
 /*true story*/
-.container {
-}
+
 .film_list {
     padding: 0;
 }
@@ -186,10 +185,14 @@ height: 40px;
 }
 .film_item-link {
 }
-.film_item-Thumb {
+.film_item-thumb {
+    width: 330px;
 }
 .film_item-title {
+    color: var(--base_color);
 }
 .poster{
     border-radius: 10px;
 }
+
+/*row taels*/
