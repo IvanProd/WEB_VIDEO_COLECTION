@@ -199,3 +199,15 @@ height: 40px;
 .hp_title{
     text-align: center;
 }
+.er_title{
+    height: 300px;
+    font-family: var(--maine_fone);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    text-align: center;
+    color: var(--base_color);
+}
