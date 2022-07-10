@@ -107,6 +107,11 @@ a{
     width: auto;
     height: 30px;
     color: var(--second_base);
+    border-radius: 5px;
+}
+.right_here{
+    background-color: var(--second_base);
+    color: var(--first_base);
 }
 .contacts {
     display: flex;
@@ -170,11 +175,31 @@ height: 40px;
 .link_footer{
     color: var(--base_color);
 }
+.switch{
+    display: flex;
+    flex-direction: nowrap;
+    align-self: center;
+    justify-content: space-between;
+    height: 30px;
+    margin: 10px 0px 0px 0px;
+}
 
+.switch_bord{
+    width: 60px;
+    height: 28px;
+    border: 1px solid var(--second_base);
+    border-radius: 5px;
+    background-color: var(--second_base);
+    text-align: center;
+}
+.switch_botton_posinion{
+margin-left: auto;
+}
 /*true story*/
 
 .film_list {
     padding: 0;
+    margin: 0px;
 }
 .film_item {
     margin-top: 10px;
@@ -198,6 +223,7 @@ height: 40px;
 /*row taels*/
 .hp_title{
     text-align: center;
+    margin-top: 10px;
 }
 .er_title{
     height: 300px;
